@@ -1,0 +1,14 @@
+{
+  "name": "firstbot",
+  "version": "1.0.0",
+  "description": "myfirst twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "phoenix",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
