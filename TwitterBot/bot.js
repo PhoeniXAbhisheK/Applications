@@ -15,7 +15,6 @@ function ranDom(arr) {
 
 // find latest tweet according the query 'q' in params
 const retweet = function() {
-  const time = new Date(Date.now());
   const params = {
     q: ranDom(paramText),
     result_type: 'recent',
