@@ -1,25 +1,25 @@
 const
   twit = require('twit'),
-  config = require('./config');
-
-const Twitter = new twit(config);
-
-const paramText = ['Include', 'multiple', 'parameters', 'seperated', 'by', 'comma'];
+  config = require('./config'),
+  Twitter = new twit(config),
+  paramText = ['Include', 'multiple', 'parameters', 'seperated', 'by', 'comma'];
 
 // function to generate a random tweet 
 function ranDom(arr) {
   const index = Math.floor(Math.random() * arr.length);
   return arr[index];
 };
-// RETWEET BOT ==========================
 
-// find latest tweet according the query 'q' in params
-const retweet = function() {
-  const params = {
+const params = {
     q: ranDom(paramText),
     result_type: 'recent',
     lang: 'en'
   }
+// RETWEET BOT ==========================
+
+// find latest tweet according the query 'q' in params
+const retweet = function() {
+  params.q = randomParam(paramText);
   Twitter.get('search/tweets', params, function(err, data) {
 
     if (!err) {
