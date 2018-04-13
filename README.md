@@ -15,4 +15,4 @@ Made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges.
 ## fccWeatherAPI
 A basic Weather App that shows temperature and weather in the coordinates by navigator.geolocation .  
 Made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges.  
-(Will be reworked in future)
+(Will be reworked in future)  
