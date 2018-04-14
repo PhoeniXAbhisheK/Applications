@@ -17,4 +17,4 @@ A basic Weather App that shows temperature and weather in the coordinates by nav
 (Will be reworked in future)  
 
 ## fccWikiViewer
-A simple search where you can search for anything and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.  
+A simple search where you can search for anything and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.    
