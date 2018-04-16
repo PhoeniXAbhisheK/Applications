@@ -18,3 +18,6 @@ A basic Weather App that shows temperature and weather in the coordinates by nav
 
 ## fccWikiViewer
 A simple search where you can search for anything and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.  
+
+## fccTwitchAPI
+A project made using Twitch API, that gets the current status of channels(streaming or offline) and displays details.  
