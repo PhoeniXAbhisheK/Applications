@@ -20,14 +20,14 @@ function getStatus(status) {
   return status;
 }
 channels.forEach(channel => {
-  $.getJSON(`https://wind-bow.gomix.me/twitch-api/streams/${channel}?callback?`, function(data) {
+  $.getJSON(`https://wind-bow.gomix.me/twitch-api/streams/${channel}?callback=?`, function(data) {
     if (data.stream) {
       // console.log(data);
       menuItems.innerHTML += makeItem("live", data.stream.channel.url, channel, data.stream.channel.display_name, data.stream.channel.game, getStatus(data.stream.channel.status));
       document.querySelector(`.${channel}`).style.backgroundImage = `url(${data.stream.channel.logo})`;
       document.querySelector(`.${channel}`).style.backgroundSize = `cover`;
     } else if (data.stream == null) {
-      $.getJSON(`https://wind-bow.gomix.me/twitch-api/channels/${channel}?callback?`, function(data) {
+      $.getJSON(`https://wind-bow.gomix.me/twitch-api/channels/${channel}?callback=?`, function(data) {
         // console.log(data);
         menuItems.innerHTML += makeItem("offline", data.url, channel, data.display_name, "Offline", getStatus(data.status));
         document.querySelector(`.${channel}`).style.backgroundImage = `url(${data.logo})`;
