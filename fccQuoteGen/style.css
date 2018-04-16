@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,6 +28,7 @@ body {
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: 0.3rem;
+    /*text-transform: uppercase;*/
     color: #fff;
 }
 
@@ -41,6 +41,7 @@ body {
 
 .main-section .quote {
     font-size: 2rem;
+    /*text-transform: uppercase;*/
     color: #fff;
     padding: 2rem;
 }
@@ -67,25 +68,25 @@ body {
     letter-spacing: 0.2rem;
     font-weight: bold;
     border: 1px solid #fff;
-    -webkit-transition: all .20s;
-    -moz-transition: all .20s;
-    -ms-transition: all .20s;
-    -o-transition: all .20s;
-    transition: all .20s;
+    -webkit-transition: all .20s ;
+       -moz-transition: all .20s ;
+        -ms-transition: all .20s ;
+         -o-transition: all .20s ;
+            transition: all .20s ;
 }
 
-.menu-items button:hover {
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.8);
+.menu-items button:hover{
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    -o-transform: scale(1.05);
-    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	   -moz-transform: scale(1.05);
+	    -ms-transform: scale(1.05);
+	     -o-transform: scale(1.05);
+	        transform: scale(1.05);
 }
 
-.menu-items button:focus {
+.menu-items button:focus{
     outline: 0;
 }
 
@@ -99,7 +100,7 @@ body {
     .profile-section {
         padding-top: 10%;
     }
-    .main-section {
+    .main-section{
         margin-bottom: 5%;
     }
 }

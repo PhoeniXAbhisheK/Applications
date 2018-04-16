@@ -10,7 +10,7 @@ const getRandom = () => {
 const getSearch = () => {
   const searchQuery = document.querySelector('.search-bar').value;
   if (searchQuery != "" || searchQuery.trim() != "") {
-    const url = `https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=100&prop=extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=${searchQuery}`;
+    const url = `https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=100&prop=extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=${searchQuery}&origin=*`;
     let resultData = "";
     resultSection.innerHTML = "";
     $.getJSON(url, function(data) {

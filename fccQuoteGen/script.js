@@ -3,6 +3,9 @@ const name = document.querySelector('.name');
 const newQuoteBut = document.querySelector('.newQuote');
 const tweetQuoteBut = document.querySelector('.tweet-quote');
 
+
+
+
 newQuote = () => {
 
   $.getJSON("http://quotesondesign.com/wp-json/posts?filter[posts_per_page]=30&callback=", function(a) {
