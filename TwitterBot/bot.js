@@ -3,7 +3,7 @@ const
   twit = require('twit'),
   config = require('./config'),
   Twitter = new twit(config),
-  paramText = ['#javascript', '#freeCodeCamp', '#100DaysOfCode', '#301DaysOfCode', '#html', '#css', '#nodejs', '#reactjs', '#womenwhocode'];
+  paramText = ['parameters', 'of', 'your', 'choice'];
 
 // function to generate a random tweet 
 function randomParam(arr) {
@@ -40,39 +40,5 @@ const retweet = function() {
     }
   });
 }
-// retweet();
-// setInterval(retweet, 300000);
-
-// FAVORITE BOT====================
-const favoriteTweet = function() {
-  params.q = randomParam(paramText);
-  
-  Twitter.get('search/tweets', params, function(err, data) {
-    if (!err) {
-      const tweet = data.statuses;
-      const randomTweet = randomParam(tweet);
-
-      Twitter.post('favorites/create', { id: randomTweet.id_str }, function(err, response) {
-        if (response) {
-          console.log('Favorite success -----', params.q, '-----', randomTweet.text.slice(0, 50));
-        } else {
-          console.log('Favorite failure');
-        }
-      });
-    }
-  });
-}
-// favoriteTweet();
-// setInterval(favoriteTweet, 150000);
-
-// FAVORITE BOT====================
-const replyFollower = function() {
-  params.q = randomParam(paramText);
-  
-  Twitter.get('followers/list', {count : 1}, function(err, data) {
-    if (!err) {
-      console.log(data);
-    }
-  });
-}
-replyFollower();
+retweet();
+setInterval(retweet, 300000);
