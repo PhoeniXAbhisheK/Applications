@@ -13,8 +13,8 @@ A basic portfolio project made for one of the [freeCodeCamp](https://www.freecod
 A Random Quote Generator where you can tweet the current quote or get a new one.  
 
 ## fccWeatherAPI
-A basic Weather App that shows temperature and weather in the coordinates by navigator.geolocation .  
-(Will be reworked in future)  
+A basic Weather App that shows temperature and weather in the coordinates by navigator.geolocation.  
+ 
 
 ## fccWikiViewer
 A simple search where you can search something and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.  

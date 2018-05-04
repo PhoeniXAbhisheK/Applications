@@ -1,5 +1,5 @@
 const weather = document.querySelector('.weather');
-const weatherIcon = document.querySelector('.weather.icon');
+const weatherIcon = document.querySelector('.weather-icon');
 const place = document.querySelector('.place');
 
 
