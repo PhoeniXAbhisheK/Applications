@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+    background: #7400ac;
+    /*   background:#9738c5; */
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 20px;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+label,
+[type="text"],
+[type="number"],
+[type="email"],
+textarea,
+select {
+    width: 100%;
+    margin: 20px 0;
+}
+
+[type="text"],
+[type="number"],
+[type="email"],
+select {
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+input,
+textarea,
+select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+option {
+    background: #7400ac;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li label {
+    margin: 10px 0;
+}
+
+.drop-one option {
+    font-size: 25px;
+}
+
+[type="radio"],
+[type="checkbox"] {
+    margin: 0 20px;
+    float: left;
+}
+
+#submit {
+    float: right;
+    width: 100px;
+    background: #fff;
+    color: #7400ac;
+    /*   color: #9738c5; */
+    font-size: 20px;
+    padding: 10px 10px 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+}
+
+:focus {
+    outline: 1px solid #fff;
+}

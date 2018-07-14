@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Survey Form</title>
+
+</head>
+
+<body>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  <h1 id="title">
+    Survey Form
+  </h1>
+  <p id="description">Survey of our service</p>
+<section id="main">
+  <form method="POST" id="survey-form">
+    <label for="name" id="name-label">Name*</label>
+    <input type="text" id="name" placeholder="Tony Stark" required/>
+    <label for="email" id="email-label">Email*</label>
+    <input type="email" id="email" placeholder="Earth.is.closed@today.com" required/>
+    <label for="number" id="number-label">Number*</label>
+    <input type="number" id="number" placeholder="Number" min="1000000000" max="9999999999" required/>
+    <label for="drop-one">Which service did you use?</label>
+    <select name="drop-one" id="dropdown">
+      <option value="1">Mini</option>      <option value="2">Ultra</option>
+      <option value="3">Executive</option>
+      <option value="4">XL</option>
+    </select>
+    <p>How satisfied are you with the service?</p>
+      <ul>
+    <li><input type="radio" name="radio-one" value="A1" checked id="high"/><label for="high">Highly Satisfied</label></li>
+    <li><input type="radio" name="radio-one" value="A2" id="medium"/><label for="medium">Satisfactory</label></li>
+    <li><input type="radio" name="radio-one" value="A3" id="bad"/><label for="bad">Just shut down, please</label></li>
+        </ul>
+    <p>Where can we improve?<p/>
+    <ul>
+    <li><input type="checkbox" name="check-one" value="A" id="service"/><label for="service">Better service</label></li>
+   <li> <input type="checkbox" name="check-one" value="B" id="product"/><label for="product">More products</label></li>
+    <li><input type="checkbox" name="check-one" value="C" checked id="hire"/><label for="hire">Hire me, I'll tell you</label></li>
+    <label for="suggestion">Suggestions</label>
+      </ul>
+    <textarea id="suggestion"/></textarea>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+</section>
+
+
+</body>
+    <link rel="stylesheet" href="style.css">
+</html>
