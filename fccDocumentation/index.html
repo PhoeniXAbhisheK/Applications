@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+<nav id="navbar">
+  <header>Document contents</header>
+  <ul>
+    <a href="#HTML" class="nav-link"><li>HTML</li></a>
+    <a href="#CSS" class="nav-link"><li>CSS</li></a>
+    <a href="#LESS" class="nav-link"><li>LESS</li></a>
+    <a href="#JavaScript" class="nav-link"><li>JavaScript</li></a>
+    <a href="#Angular" class="nav-link"><li>Angular</li></a>
+    <a href="#React" class="nav-link"><li>React</li></a>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="HTML">
+    <header>HTML</header>
+    <p>What is HTML?</p>
+    <p>HTML is the standard markup language for creating Web pages.</p>
+      <ul id="html-list">
+      <li>HTML stands for Hyper Text Markup Language</li>
+      <li>HTML describes the structure of Web pages using markup</li>
+      <li>HTML elements are the building blocks of HTML pages</li>
+        <li>HTML elements are represented by tags</li>
+        <li>HTML tags label pieces of content such as heading, paragraph, table, and so on</li>
+        <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+    </ul>
+  <p>Simple HTML code</p>
+    <code>
+      &lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+      &lt;body&gt;
+      &lt;h1&gt;My First Heading&lt;/h1&gt;
+      &lt;p&gt;My first paragraph.&lt;/p&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+  </code>
+  </section>
+  <section class="main-section" id="CSS">
+    <header>CSS</header>
+    <p>What is CSS?</p>
+    <p>CSS stands for Cascading Style Sheets</p>
+    <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+    <code>
+      p{
+        color:red;
+        text-align: center;
+      }
+    </code>
+    <p>There are three ways of inserting a style sheet:</p>
+    <ul>
+      <li>External style sheet</li>
+      <li>Internal style sheet</li>
+      <li>Inline style</li>
+    </ul>
+  </section>
+  <section class="main-section" id="LESS">
+    <header>LESS</header>
+    <p>Less (which stands for Leaner Style Sheets) is a backwards-compatible language extension for CSS.</p>
+    <p>Because Less looks just like CSS, learning it is a breeze.</p>
+    <p>Less only makes a few convenient additions to the CSS language, which is one of the reasons it can be learned so quickly.</p>
+    <code>
+LESS code:
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue + #111;
+
+#header {
+  color: @light-blue;
+}
+      
+output:
+#header {
+  color: #6c94be;
+}
+    </code>
+    <p>Here's a quick overview of features.</p>
+    <ul>
+      <li>Variables</li>
+      <li>Mixins</li>
+      <li>Nesting</li>
+      <li>Operations</li>
+      <li>Escaping</li>
+      <li>Functions</li>
+      <li>and lots more...</li>
+    </ul>
+  </section>
+  <section class="main-section" id="JavaScript">
+    <header>JavaScript</header>
+    <p>JavaScript is the programming language of HTML and the Web.</p>
+    <p>JavaScript is easy to learn.</p>
+    <p>Javascript is love</p>
+   <p>An example of JS(Javascript) code</p> 
+    <code>document.getElementById("demo").innerHTML 
+      = "Hello JavaScript";</code>
+    <p>Having an External JS file has advantages:</p>
+    <ul>
+      <li>It separates HTML and code</li>
+      <li>It makes HTML and JavaScript easier to read and maintain</li>
+      <li>Cached JavaScript files can speed up page loads</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Angular">
+    <header>Angular</header>
+    <p>AngularJS is a JavaScript framework</p>
+    <p>It can be added to an HTML page with a &lt;script&gt; tag.</p>
+    <p>AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.</p>
+    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;script src="/angular.min.js"&gt;&lt;/script&gt;
+&lt;body&gt;
+&lt;div ng-app=""&gt;
+  &lt;p&gt;
+      Name: 
+      &lt;input type="text" ng-model="name"&gt;
+  &lt;/p&gt;
+  &lt;p ng-bind="name"&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code>
+    <p>AngularJS starts automatically when the web page has loaded.</p>
+    <ul>
+      <li>The ng-app directive tells AngularJS that the &lt;div&gt; element is the "owner" of an AngularJS application.</li>
+      <li>The ng-model directive binds the value of the input field to the application variable name.</li>
+      <li>The ng-bind directive binds the innerHTML of the &lt;p&gt; element to the application variable name.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="React">
+    <header>React</header>
+    <p>React is a front-end library developed by Facebook</p>
+    <p>It is used for handling the view layer for web and mobile apps.</p>
+    <p>It is currently one of the most popular JavaScript libraries and has a strong foundation and large community behind it.</p>
+    <p>React features:</p>
+    <ul>
+      <li><strong>JSX</strong> − JSX is JavaScript syntax extension. It isn't necessary to use JSX in React development, but it is recommended.</li>
+      <li><strong>Components</strong> − React is all about components. You need to think of everything as a component. This will help you maintain the code when working on larger scale projects.</li>
+      <li><strong>Unidirectional data flow and Flux</strong> − React implements one-way data flow which makes it easy to reason about your app. Flux is a pattern that helps keeping your data unidirectional.</li>
+    </ul>
+    <p>index.html</p>
+    <code>
+      
+&lt;!DOCTYPE html&gt;
+&lt;html lang = "en"&gt;
+
+   &lt;head&gt;
+      &lt;meta charset = "UTF-8"&gt;
+      &lt;title&gt;React App&lt;/title&gt;
+   &lt;/head&gt;
+
+   &lt;body&gt;
+      &lt;div id = "app"&gt;&lt;/div&gt;
+      &lt;script src = "index.js"&gt;&lt;/script&gt;
+   &lt;/body&gt;
+
+&lt;/html&gt;
+    </code>
+    <p>app.jsx</p>
+    <code>
+import React from 'react';
+
+class App extends React.Component {
+   render() {
+      return (
+         &lt;div&gt;
+            Hello World!!!
+         &lt;/div&gt;
+      );
+   }
+}
+export default App;
+    </code>
+    <p>main.js</p>
+    <code>
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+
+ReactDOM.render(&lt;App /&gt;,
+      document.getElementById('app'));
+    </code>
+  </section>
+</main>
+</body>
+<link rel="stylesheet" href="style.css">
+</html>
