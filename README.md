@@ -22,4 +22,7 @@ A simple search where you can search something and get results from Wikipedia us
 A project made using Twitch API, that gets the current status of channels(streaming or offline) and displays details.  
 
 ## fccSurveyForm  
-A simple form layout.
+A form layout.  
+
+## fccDocumentation  
+A documentation page containing bits about HTML, CSS, LESS, JS, AngularJS, ReactJS.
