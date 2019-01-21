@@ -5,3 +5,5 @@ All the files from this project can be used directly(Although, you'll need to in
 Additional changes can be done in 'bot.js -> params -> q' for personalization.  
 
 After that run 'npm start' or 'node bot.js' command in the folder location and it's done.
+
+P.S: The requests to API are made using the userAuth method, and limits to 180 requests every 15 minutes.
