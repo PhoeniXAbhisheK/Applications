@@ -28,4 +28,4 @@ A form layout.
 A documentation page containing bits about HTML, CSS, LESS, JS, AngularJS, ReactJS.
 
 ## Websites  
-A list of small landing pages that have been styled totally using LESS.
+A list of small landing pages that have been styled using LESS.
