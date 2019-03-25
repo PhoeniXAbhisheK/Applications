@@ -6,26 +6,26 @@ fcc* : These projects are made for one of the [freeCodeCamp](https://www.freecod
 A basic [Twitter bot](https://twitter.com/PhoenixGyaan) that retweets and favourites tweets based on passed parameters using the Twitter API.  
 Made in **Node.js** using **Twit** (https://www.npmjs.com/package/twit)
 
-## fccPortfolio [Link](https://codepen.io/phoenixabhishek/full/LdJgba/)
-A basic portfolio project made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges.
+## fccPortfolio 
+A basic portfolio project made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges. [Link](https://codepen.io/phoenixabhishek/full/LdJgba/)
 
-## fccQuoteGen [Link](https://codepen.io/phoenixabhishek/full/xWMqoE/)
-A Random Quote Generator where you can tweet the current quote or get a new one.  
+## fccQuoteGen 
+A Random Quote Generator where you can tweet the current quote or get a new one.  [Link](https://codepen.io/phoenixabhishek/full/xWMqoE/)
 
-## fccWeatherAPI [Link](https://codepen.io/phoenixabhishek/full/MVLLGK/)
-A basic Weather App that shows temperature and weather in the coordinates by navigator.geolocation.  
+## fccWeatherAPI 
+A basic Weather App that shows temperature and weather in the coordinates by navigator.geolocation.  [Link](https://codepen.io/phoenixabhishek/full/MVLLGK/)
  
-## fccWikiViewer [Link](https://codepen.io/phoenixabhishek/full/QmXvOm/)
-A simple search where you can search something and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.   
+## fccWikiViewer 
+A simple search where you can search something and get results from Wikipedia using Wikipedia API, or get a random Wikipedia page searched.   [Link](https://codepen.io/phoenixabhishek/full/QmXvOm/)
 
-## fccTwitchAPI [Link](https://codepen.io/phoenixabhishek/full/geVwWy)
-A project made using Twitch API, that gets the current status of channels(streaming or offline) and displays details.  
+## fccTwitchAPI 
+A project made using Twitch API, that gets the current status of channels(streaming or offline) and displays details.  [Link](https://codepen.io/phoenixabhishek/full/geVwWy)
 
-## fccSurveyForm  [Link](https://codepen.io/phoenixabhishek/full/jKKvNo)
-A form layout.  
+## fccSurveyForm  
+A form layout.  [Link](https://codepen.io/phoenixabhishek/full/jKKvNo)
 
-## fccDocumentation  [Link](https://codepen.io/phoenixabhishek/full/WyKrgN)
-A documentation page containing bits about HTML, CSS, LESS, JS, AngularJS, ReactJS.
+## fccDocumentation  
+A documentation page containing bits about HTML, CSS, LESS, JS, AngularJS, ReactJS. [Link](https://codepen.io/phoenixabhishek/full/WyKrgN)
 
 ## Websites  
 A list of small landing pages that have been styled using LESS.
