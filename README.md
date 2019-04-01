@@ -4,7 +4,7 @@ fcc* : These projects are made for one of the [freeCodeCamp](https://www.freecod
 
 ## TwitterBot 
 A basic [Twitter bot](https://twitter.com/PhoenixGyaan) that retweets and favourites tweets based on passed parameters using the Twitter API.  
-Made in **Node.js** using **Twit** (https://www.npmjs.com/package/twit)
+Made in **Node.js** using [**Twit** package](https://www.npmjs.com/package/twit)
 
 ## fccPortfolio 
 A basic portfolio project made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges. [Link](https://codepen.io/phoenixabhishek/full/LdJgba/)
