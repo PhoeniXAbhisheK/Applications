@@ -1,5 +1,5 @@
 # Applications
-This repository contains small applications/projects made by me while learing.  
+This repository contains small applications/projects made by me while learning.  
 fcc* : These projects are made for one of the [freeCodeCamp](https://www.freecodecamp.org/) challenges.  
 
 ## TwitterBot 
